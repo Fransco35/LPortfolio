@@ -1,0 +1,93 @@
+.skills {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.skillsDark {
+  color: #fff;
+}
+
+.skillsHeading {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skillsHeading h2 {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+.skillsHeading h6 {
+  font-weight: bold;
+}
+
+.skillsRow {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.skillColIcon {
+  color: #0099ff;
+}
+
+.skillsCol {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 450px;
+  transition-property: box-shadow transform background-color color;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.skillsColDark {
+  background-color: rgb(32, 35, 39);
+}
+
+.skillsCol h2 {
+  font-weight: bold;
+}
+
+.skillsCol:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-20px);
+  background-color: #0099ff;
+  color: #fff;
+}
+
+.skillsCol:is(:hover, :focus) .skillColIcon {
+  color: #fff;
+}
+
+@media screen and (max-width: 942px) {
+  .skillsRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .skillsCol {
+    width: 450px;
+    border-radius: 5px;
+  }
+
+  .skillsCol:hover {
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .skillsCol {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skillsCol {
+    width: 290px;
+  }
+}

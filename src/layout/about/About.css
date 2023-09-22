@@ -1,0 +1,85 @@
+.about {
+  padding: 30px 0;
+  background-color: #f7f7fc;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.aboutDark {
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .about {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .hstack {
+    justify-content: center;
+  }
+}
+
+.aboutColCircle {
+  border-radius: 50%;
+  background-color: #0099ff;
+  height: 400px;
+  width: 400px;
+  margin: 10px auto -400px;
+}
+
+.aboutColOne {
+  position: relative;
+  height: 100%;
+}
+
+.aboutColImg {
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutColTwo {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .aboutColTwoContent p {
+    text-align: left;
+  }
+  .aboutColCircle {
+    height: 350px;
+    width: 350px;
+    margin: 10px auto -350px;
+  }
+
+  .aboutColTwo {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .aboutColCircle {
+    height: 250px;
+    width: 250px;
+    margin: 10px auto -200px;
+  }
+
+  .aboutColTwo {
+    margin: 30px 0;
+  }
+}
+
+.aboutColTwoContent h2 {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+.aboutColTwoContent h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
