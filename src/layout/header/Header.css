@@ -1,12 +1,12 @@
 .header {
   height: 90vh;
-  background-image: linear-gradient(to right, #fff 64%, #0099ff 36%);
+  background-image: linear-gradient(to right, #fff 65%, #0099ff 35%);
   border-bottom: 1px solid #0099ff;
   position: relative;
 }
 
 .headerDark {
-  background-image: linear-gradient(to right, #000 64%, #0099ff 36%);
+  background-image: linear-gradient(to right, #000 65%, #0099ff 35%);
   color: #fff;
 }
 
@@ -60,8 +60,17 @@
   color: #0099ff;
 }
 
+.navBrandDark:hover {
+  color: #0099ff;
+}
+
+.navToggle {
+  background-color: #0099ff;
+}
+
 .navLink {
   color: #fff;
+  padding: 0.4rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -87,6 +96,10 @@
 
   .navLink:is(:hover) {
     color: #0e84ea;
+  }
+
+  .ms-auto .active {
+    color: #0099ff !important;
   }
 
   .headerColOne {

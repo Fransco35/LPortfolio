@@ -66,8 +66,16 @@ function Portfolio() {
                   SASS(node-sass)
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">Live Demo</Button>
-                  <Button variant="outline-primary">Github</Button>
+                  <Button variant="outline-primary">
+                    <a href="https://fransco35.github.io/businessLandingPage/">
+                      Live Demo
+                    </a>
+                  </Button>
+                  <Button variant="outline-primary">
+                    <a href="https://github.com/Fransco35/businessLandingPage">
+                      Github
+                    </a>
+                  </Button>
                 </Stack>
               </Card.Body>
             </Card>

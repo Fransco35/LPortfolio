@@ -53,15 +53,21 @@
   padding: 20px;
 }
 
+.contactColTwo h2 {
+  color: #0099ff;
+}
+
 .contactInput {
   padding: 15px;
   background-color: transparent;
   border: 2px solid #0099ff;
+  color: #0099ff;
 }
 
 .contactTextArea {
   background-color: transparent;
   border: 2px solid #0099ff;
+  color: #0099ff;
 }
 
 .contactInput::placeholder,

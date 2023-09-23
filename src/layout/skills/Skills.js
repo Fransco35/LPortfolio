@@ -1,9 +1,19 @@
 import { Display, DatabaseFillGear, Layers } from "react-bootstrap-icons";
 import "./Skills.css";
 
+import ToggleContext from "../../context/toggle-context";
+import { useContext } from "react";
+
 function Skills() {
+  const ctx = useContext(ToggleContext);
+
+  const skillsClass = ctx.toggleNav ? "skills skillsDark" : "skills";
+  const skillsColClass = ctx.toggleNav
+    ? "skillsCol skillsColDark"
+    : "skillsCol";
+
   return (
-    <section id="skills" className="skills">
+    <section id="skills" className={skillsClass}>
       <div className="skillsHeading">
         <h6>Technical Skills I have</h6>
         <h2>My Services</h2>
@@ -11,7 +21,7 @@ function Skills() {
 
       <div className="skillsContainer">
         <div className="skillsRow">
-          <div className="skillsCol">
+          <div className={skillsColClass}>
             <Display className="skillColIcon" size={90} />
             <h2>Frontend Development</h2>
             <ul>
@@ -24,7 +34,7 @@ function Skills() {
               <li>NextJS</li>
             </ul>
           </div>
-          <div className="skillsCol">
+          <div className={skillsColClass}>
             <DatabaseFillGear className="skillColIcon" size={90} />
             <h2>Backend Development</h2>
             <ul>
@@ -35,7 +45,7 @@ function Skills() {
               <li>Redis</li>
             </ul>
           </div>
-          <div className="skillsCol">
+          <div className={skillsColClass}>
             <Layers className="skillColIcon" size={90} />
             <h2>Other Technical Skills</h2>
             <ul>

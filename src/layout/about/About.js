@@ -1,9 +1,16 @@
-import { Container, Row, Col, Stack, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./About.css";
 
+import ToggleContext from "../../context/toggle-context";
+import { useContext } from "react";
+
 function About() {
+  const ctx = useContext(ToggleContext);
+
+  const aboutClass = ctx.toggleNav ? "about aboutDark" : "about";
+
   return (
-    <section id="about" className="about">
+    <section id="about" className={aboutClass}>
       <Container>
         <Row className="aboutRow">
           <Col
@@ -42,14 +49,9 @@ function About() {
                 communicative and collaborative development teams to produce
                 high quality results.
               </p>
-              <Stack direction="horizontal" className="hstack" gap={2}>
-                <Button variant="outline-primary" size="lg" href="#contact">
-                  Let's Talk
-                </Button>
-                <Button variant="primary" size="lg">
-                  Download CV
-                </Button>
-              </Stack>
+              <Button variant="outline-primary" size="lg" href="#contact">
+                Let's talk
+              </Button>
             </div>
           </Col>
         </Row>

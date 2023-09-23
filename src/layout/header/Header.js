@@ -1,15 +1,24 @@
 import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 
-import { MoonFill } from "react-bootstrap-icons";
+import { MoonFill, SunFill } from "react-bootstrap-icons";
 
 import "./Header.css";
+import ToggleContext from "../../context/toggle-context";
+import { useContext } from "react";
 
 function Header() {
+  const ctx = useContext(ToggleContext);
+
+  const headerClass = ctx.toggleNav ? "header headerDark" : "header";
+  const navBar = ctx.toggleNav ? "navbar navbarDark" : "navbar";
+  const navBrand = ctx.toggleNav ? "navBrand navBrandDark" : "navBrand";
+  const navToggle = ctx.toggleNav ? " navToggle" : " ";
+
   return (
-    <header className="header">
-      <Navbar expand="lg" className="navbar">
+    <header id="home" className={headerClass}>
+      <Navbar expand="lg" className={`navbar ${navBar}`}>
         <Container>
-          <Navbar.Brand href="home" className="navBrand">
+          <Navbar.Brand href="home" className={navBrand}>
             <img
               alt=""
               src="fi-navlogo.png"
@@ -19,7 +28,10 @@ function Header() {
             />{" "}
             Francis
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className={navToggle}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className="navLink" href="#home">
@@ -37,9 +49,13 @@ function Header() {
               <Nav.Link className="navLink" href="#contact">
                 Contact
               </Nav.Link>
-              <Nav.Link>
+              <Nav.Link className="navLink">
                 {" "}
-                <MoonFill size={20} />
+                {ctx.toggleNav ? (
+                  <SunFill onClick={ctx.handletoggle} size={20} />
+                ) : (
+                  <MoonFill onClick={ctx.handletoggle} size={20} />
+                )}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -58,7 +74,7 @@ function Header() {
                 Hi, I'm Francis Inegbenose, a passionate Fullstack Developer
                 based in Nigeria. Welcome to my profile
               </p>
-              <Button variant="outline-primary" size="lg">
+              <Button variant="outline-primary" size="lg" href="#contact">
                 Contact Me
               </Button>
             </div>
