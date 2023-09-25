@@ -86,6 +86,7 @@ function Contact() {
                   className="contactInput"
                   type="text"
                   placeholder="Enter Your Name"
+                  required
                 />
                 <ValidationError
                   prefix="Name"
@@ -101,6 +102,7 @@ function Contact() {
                   className="contactInput"
                   type="email"
                   placeholder="Enter Your Email"
+                  required
                 />
                 <ValidationError
                   prefix="Email"
@@ -120,6 +122,7 @@ function Contact() {
                   className="contactTextArea"
                   rows={7}
                   placeholder="Purpose of Contact"
+                  required
                 />
                 <ValidationError
                   prefix="Message"
