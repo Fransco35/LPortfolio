@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 .appDark {
   background-color: #000;
@@ -11,6 +12,7 @@
 .svg {
   position: relative;
   top: -30vh;
+  height: 50vh;
 }
 
 @media screen and (max-width: 992px) {

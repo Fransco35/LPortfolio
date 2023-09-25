@@ -20,7 +20,7 @@ function Header() {
         <Container>
           <Navbar.Brand href="home" className={navBrand}>
             <img
-              alt=""
+              alt="francis inegebenose logo"
               src="fi-navlogo.png"
               width="30"
               height="30"

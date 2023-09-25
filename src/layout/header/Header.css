@@ -1,12 +1,12 @@
 .header {
   height: 90vh;
-  background-image: linear-gradient(to right, #fff 65%, #0099ff 35%);
+  background-image: linear-gradient(to right, #fff 60vw, #0099ff 40vw);
   border-bottom: 1px solid #0099ff;
   position: relative;
 }
 
 .headerDark {
-  background-image: linear-gradient(to right, #000 65%, #0099ff 35%);
+  background-image: linear-gradient(to right, #000 60vw, #0099ff 40vw);
   color: #fff;
 }
 
@@ -46,7 +46,7 @@
 
 .headerImage {
   position: relative;
-  left: -50%;
+  left: -21vw;
   max-width: 100%;
   height: auto;
 }
