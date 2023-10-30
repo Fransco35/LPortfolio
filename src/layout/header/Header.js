@@ -1,10 +1,9 @@
 import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap";
-
 import { MoonFill, SunFill } from "react-bootstrap-icons";
-
 import "./Header.css";
 import ToggleContext from "../../context/toggle-context";
 import { useContext } from "react";
+import { Reveal } from "../../animate/Reveal";
 
 function Header() {
   const ctx = useContext(ToggleContext);
@@ -61,25 +60,33 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container fluid>
+      <Container>
         <Row>
-          <Col className="headerColOne" md={12} lg={8}>
+          <Col className="headerColOne" md={12} lg={6}>
             <div className="headerColOneContent">
-              <h6>hello, i'm a</h6>
-              <h1>
-                <span className="headerSpanOne">Full Stack</span>
-                <span className="headerSpanTwo">Developer</span>
-              </h1>
-              <p>
-                Hi, I'm Francis Inegbenose, a passionate Fullstack Developer
-                based in Nigeria. Welcome to my profile
-              </p>
-              <Button variant="outline-primary" size="lg" href="#contact">
-                Contact Me
-              </Button>
+              <Reveal>
+                <h6>hello, i'm a</h6>
+              </Reveal>
+              <Reveal>
+                <h1>
+                  <span className="headerSpanOne">Full Stack</span>
+                  <span className="headerSpanTwo">Developer</span>
+                </h1>
+              </Reveal>
+              <Reveal>
+                <p>
+                  Hi, I'm Francis Inegbenose, a passionate Fullstack Developer
+                  based in Nigeria. Welcome to my profile
+                </p>
+              </Reveal>
+              <Reveal>
+                <Button variant="outline-primary" size="lg" href="#contact">
+                  Contact Me
+                </Button>
+              </Reveal>
             </div>
           </Col>
-          <Col className="headerColTwo" md={12} lg={4}>
+          <Col className="headerColTwo" md={12} lg={6}>
             <img
               className="headerImage"
               alt="Francis Inegbenose || Full Stack Engineer"

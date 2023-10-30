@@ -1,4 +1,4 @@
-import { Linkedin, Github, Twitter } from "react-bootstrap-icons";
+import { Linkedin, Github } from "react-bootstrap-icons";
 import "./Footer.css";
 
 function Footer() {
@@ -16,7 +16,7 @@ function Footer() {
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -28,9 +28,6 @@ function Footer() {
         </a>
         <a href="https://github.com/Fransco35">
           <Github className="footerSocialIcon" size={25} />
-        </a>
-        <a href="https://twitter.com/Francis__Dev">
-          <Twitter className="footerSocialIcon" size={25} />
         </a>
       </div>
       <div className="footerCopyright">

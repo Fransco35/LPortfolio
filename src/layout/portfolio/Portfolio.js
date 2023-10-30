@@ -6,8 +6,8 @@ function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
       <div className="portfolioHeading">
-        <h6>My Recent Works</h6>
-        <h2>My Portfolio</h2>
+        <h6>Some of My Works</h6>
+        <h2>Projects</h2>
       </div>
 
       <Container>
