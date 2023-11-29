@@ -14,6 +14,24 @@ function Portfolio() {
         <Row>
           <Col>
             <Card style={{ width: "18rem" }} className="portfolioCard">
+              <Card.Img variant="top" src="SoloChatMsg.png" />
+              <Card.Body>
+                <Card.Title className="portfolioTitle">SoloChat</Card.Title>
+                <Card.Text>
+                  Built the new user interface of SoloChat messenger, a unique
+                  messaging application for SoloChat Limited
+                </Card.Text>
+                <Stack direction="horizontal" className="hstack" gap={2}>
+                  <Button variant="outline-primary">
+                    <a href="https://solochat.me">Visit</a>
+                  </Button>
+                </Stack>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "18rem" }} className="portfolioCard">
               <Card.Img variant="top" src="riseblog-min.png" />
               <Card.Body>
                 <Card.Title className="portfolioTitle">Rise Blog</Card.Title>
@@ -34,47 +52,21 @@ function Portfolio() {
               </Card.Body>
             </Card>
           </Col>
+
           <Col>
             <Card style={{ width: "18rem" }} className="portfolioCard">
-              <Card.Img variant="top" src="vvs-min.png" />
+              <Card.Img variant="top" src="medpal.png" />
               <Card.Body>
-                <Card.Title className="portfolioTitle">
-                  Visibcon Vet Services
-                </Card.Title>
+                <Card.Title className="portfolioTitle">MedPal</Card.Title>
                 <Card.Text>
-                  Landing page for a Veterinary pharmacetical company. Built
-                  with HTML, SASS and jQuery
+                  This is a health tech app that enables healthcare
+                  professionals track patients adherence to medications and
+                  enables patients set auto-reminders for medication timing and
+                  dosage.
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
-                    <a href="https://fransco35.github.io/VVS/">Live Demo</a>
-                  </Button>
-                  <Button variant="outline-primary">
-                    <a href="https://github.com/Fransco35/VVS">Github</a>
-                  </Button>
-                </Stack>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card style={{ width: "18rem" }} className="portfolioCard">
-              <Card.Img variant="top" src="Sparks .png" />
-              <Card.Body>
-                <Card.Title className="portfolioTitle">Sparks</Card.Title>
-                <Card.Text>
-                  Landing Page for an agency built with HTML,CSS and
-                  SASS(node-sass)
-                </Card.Text>
-                <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">
-                    <a href="https://fransco35.github.io/businessLandingPage/">
-                      Live Demo
-                    </a>
-                  </Button>
-                  <Button variant="outline-primary">
-                    <a href="https://github.com/Fransco35/businessLandingPage">
-                      Github
-                    </a>
+                    <a href="https://github.com/Klusterton-90">Github</a>
                   </Button>
                 </Stack>
               </Card.Body>
