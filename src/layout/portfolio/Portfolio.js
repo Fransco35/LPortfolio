@@ -14,16 +14,22 @@ function Portfolio() {
         <Row>
           <Col>
             <Card style={{ width: "18rem" }} className="portfolioCard">
-              <Card.Img variant="top" src="SoloChatMsg.png" />
+              <Card.Img variant="top" src="portfolioSite.png" />
               <Card.Body>
-                <Card.Title className="portfolioTitle">SoloChat</Card.Title>
+                <Card.Title className="portfolioTitle">
+                  Francis Inegbenose
+                </Card.Title>
                 <Card.Text>
-                  Built the new user interface of SoloChat messenger, a unique
-                  messaging application for SoloChat Limited
+                  My current portfolio website built with Bootstrap and
+                  React.js. Features dynamic contact form and conditional color
+                  modes
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
-                    <a href="https://solochat.me">Visit</a>
+                    <a href="https://francisinegbenose.vercel.app">Visit</a>
+                  </Button>
+                  <Button variant="outline-primary">
+                    <a href="https://github.com/Fransco35/LPortfolio">Github</a>
                   </Button>
                 </Stack>
               </Card.Body>
@@ -36,8 +42,10 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title className="portfolioTitle">Rise Blog</Card.Title>
                 <Card.Text>
-                  Fullstack blogging application. Built with Reactjs, Nodejs and
-                  MongoDB
+                  Fullstack blogging application. Built with React.js, Node.js
+                  and MongoDB. Features sign up, login, blog listing and blog
+                  specific pages. Enables creating, posting, reading of blog
+                  articles and commenting feature .
                   <Stack direction="horizontal" className="hstack" gap={2}>
                     <Button variant="outline-primary">
                       <a href="https://riseblog.onrender.com"> Live Demo</a>
@@ -67,6 +75,35 @@ function Portfolio() {
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
                     <a href="https://github.com/Klusterton-90">Github</a>
+                  </Button>
+                </Stack>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card style={{ width: "18rem" }} className="portfolioCard">
+              <Card.Img variant="top" src="tasktrackerapp.png" />
+              <Card.Body>
+                <Card.Title className="portfolioTitle">
+                  Task Tracker App
+                </Card.Title>
+                <Card.Text>
+                  This is a frontend task tracker application built with
+                  React.js. It enables users create, update and delete tasks. It
+                  also has a reminder and completion state to track created
+                  tasks
+                </Card.Text>
+                <Stack direction="horizontal" className="hstack" gap={2}>
+                  <Button variant="outline-primary">
+                    <a href="https://task-tracker-app-phi.vercel.app/">
+                      Live Demo
+                    </a>
+                  </Button>
+                  <Button variant="outline-primary">
+                    <a href="https://github.com/Fransco35/TaskTrackerApp">
+                      Github
+                    </a>
                   </Button>
                 </Stack>
               </Card.Body>
