@@ -63,7 +63,7 @@ function Contact() {
             <div className={contactInfoClass}>
               <EnvelopeAtFill className="contactInfoIcon" size={40} />
               <h5>Email</h5>
-              <h6>kizzycole10@gmail.com</h6>
+              <h6>francisinose@yahoo.com</h6>
             </div>
             <div className={contactInfoClass}>
               <Whatsapp className="contactInfoIcon" size={40} />
