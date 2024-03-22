@@ -21,7 +21,7 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   My current portfolio website built with Bootstrap and
-                  React.js.It features a: <br /> - fully responsive layout
+                  React.js.It features a: <br /> - Fully responsive layout
                   <br /> - Dynamic contact form <br /> - Toggler color scheme
                   between light and dark mode <br /> - Reveal animation using
                   framer-motion
@@ -52,7 +52,7 @@ function Portfolio() {
                 <Card.Text>
                   This is a responsive Reactjs frontend application which
                   enables users to:
-                  <br /> - fully responsive layout <br /> - See all countries
+                  <br /> - Fully responsive layout <br /> - See all countries
                   from the API on the homepage, <br /> - Search for a country
                   using an input field, <br /> - Filter countries by region,{" "}
                   <br /> - Click on a country to see more detailed information
@@ -84,7 +84,7 @@ function Portfolio() {
                 <Card.Text>
                   This is a fullstack blog app built with React.js, Node.js and
                   MongoDB. User are able to:
-                  <br /> - fully responsive layout <br /> - Click on a blog
+                  <br /> - Fully responsive layout <br /> - Click on a blog
                   article to see more detailed information on a separate page{" "}
                   <br /> - Drop comments on blog articles, <br />
                   - Sign up and log in to post blog articles. <br /> - Write and
@@ -133,7 +133,7 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   This is a frontend task tracker application built with
-                  React.js. Users are able to :<br /> - fully responsive layout{" "}
+                  React.js. Users are able to :<br /> - Fully responsive layout{" "}
                   <br /> - Create tasks, <br /> - Read tasks, <br /> - Edit and
                   Update tasks, <br /> - Delete tasks, <br /> - Toggle
                   completion mode on or off <br /> - Toggle reminder on or off
