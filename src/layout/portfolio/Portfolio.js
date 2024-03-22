@@ -21,9 +21,10 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   My current portfolio website built with Bootstrap and
-                  React.js.It features a: <br /> - Dynamic contact form <br /> -
-                  Toggler color scheme between light and dark mode <br /> -
-                  Reveal animation using framer-motion
+                  React.js.It features a: <br /> - fully responsive layout
+                  <br /> - Dynamic contact form <br /> - Toggler color scheme
+                  between light and dark mode <br /> - Reveal animation using
+                  framer-motion
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
@@ -50,13 +51,14 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   This is a responsive Reactjs frontend application which
-                  enables users to: <br /> - See all countries from the API on
-                  the homepage, <br /> - Search for a country using an input
-                  field, <br /> - Filter countries by region, <br /> - Click on
-                  a country to see more detailed information on a separate page,{" "}
-                  <br /> - Click through to the border countries on the detail
-                  page, <br /> - Toggle the color scheme between light and dark
-                  mode
+                  enables users to:
+                  <br /> - fully responsive layout <br /> - See all countries
+                  from the API on the homepage, <br /> - Search for a country
+                  using an input field, <br /> - Filter countries by region,{" "}
+                  <br /> - Click on a country to see more detailed information
+                  on a separate page, <br /> - Click through to the border
+                  countries on the detail page, <br /> - Toggle the color scheme
+                  between light and dark mode
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
@@ -81,9 +83,10 @@ function Portfolio() {
                 <Card.Title className="portfolioTitle">Rise Blog</Card.Title>
                 <Card.Text>
                   This is a fullstack blog app built with React.js, Node.js and
-                  MongoDB. User are able to: <br /> - Click on a blog article to
-                  see more detailed information on a separate page <br /> - Drop
-                  comments on blog articles, <br />
+                  MongoDB. User are able to:
+                  <br /> - fully responsive layout <br /> - Click on a blog
+                  article to see more detailed information on a separate page{" "}
+                  <br /> - Drop comments on blog articles, <br />
                   - Sign up and log in to post blog articles. <br /> - Write and
                   post articles (for registered users only).
                   <Stack direction="horizontal" className="hstack" gap={2}>
@@ -130,10 +133,10 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   This is a frontend task tracker application built with
-                  React.js. Users are able to : <br /> - Create tasks, <br /> -
-                  Read tasks, <br /> - Edit and Update tasks, <br /> - Delete
-                  tasks, <br /> - Toggle completion mode on or off <br /> -
-                  Toggle reminder on or off
+                  React.js. Users are able to :<br /> - fully responsive layout{" "}
+                  <br /> - Create tasks, <br /> - Read tasks, <br /> - Edit and
+                  Update tasks, <br /> - Delete tasks, <br /> - Toggle
+                  completion mode on or off <br /> - Toggle reminder on or off
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
