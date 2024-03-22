@@ -13,23 +13,28 @@ function Portfolio() {
       <Container>
         <Row>
           <Col>
-            <Card style={{ width: "18rem" }} className="portfolioCard">
+            <Card className="portfolioCard">
               <Card.Img variant="top" src="portfolioSite.png" />
               <Card.Body>
                 <Card.Title className="portfolioTitle">
-                  Francis Inegbenose
+                  Portfolio App
                 </Card.Title>
                 <Card.Text>
                   My current portfolio website built with Bootstrap and
-                  React.js. Features dynamic contact form and conditional color
-                  modes
+                  React.js.It features a: <br /> - Dynamic contact form <br /> -
+                  Toggler color scheme between light and dark mode <br /> -
+                  Reveal animation using framer-motion
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
-                    <a href="https://francisinegbenose.vercel.app">Visit</a>
+                    <a href="https://francisinegbenose.vercel.app">
+                      Preview Site
+                    </a>
                   </Button>
                   <Button variant="outline-primary">
-                    <a href="https://github.com/Fransco35/LPortfolio">Github</a>
+                    <a href="https://github.com/Fransco35/LPortfolio">
+                      View Code
+                    </a>
                   </Button>
                 </Stack>
               </Card.Body>
@@ -37,22 +42,57 @@ function Portfolio() {
           </Col>
 
           <Col>
-            <Card style={{ width: "18rem" }} className="portfolioCard">
+            <Card className="portfolioCard">
+              <Card.Img variant="top" src="REST-countries.png" />
+              <Card.Body>
+                <Card.Title className="portfolioTitle">
+                  REST Countries API
+                </Card.Title>
+                <Card.Text>
+                  This is a responsive Reactjs frontend application which
+                  enables users to: <br /> - See all countries from the API on
+                  the homepage, <br /> - Search for a country using an input
+                  field, <br /> - Filter countries by region, <br /> - Click on
+                  a country to see more detailed information on a separate page,{" "}
+                  <br /> - Click through to the border countries on the detail
+                  page, <br /> - Toggle the color scheme between light and dark
+                  mode
+                </Card.Text>
+                <Stack direction="horizontal" className="hstack" gap={2}>
+                  <Button variant="outline-primary">
+                    <a href="https://rest-countries-reactjs.vercel.app/">
+                      Preview Site
+                    </a>
+                  </Button>
+                  <Button variant="outline-primary">
+                    <a href="https://github.com/Fransco35/rest-countries-react-app">
+                      View Code
+                    </a>
+                  </Button>
+                </Stack>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card className="portfolioCard">
               <Card.Img variant="top" src="riseblog-min.png" />
               <Card.Body>
                 <Card.Title className="portfolioTitle">Rise Blog</Card.Title>
                 <Card.Text>
-                  Fullstack blogging application. Built with React.js, Node.js
-                  and MongoDB. Features sign up, login, blog listing and blog
-                  specific pages. Enables creating, posting, reading of blog
-                  articles and commenting feature .
+                  This is a fullstack blog app built with React.js, Node.js and
+                  MongoDB. User are able to: <br /> - Click on a blog article to
+                  see more detailed information on a separate page <br /> - Drop
+                  comments on blog articles, <br />
+                  - Sign up and log in to post blog articles. <br /> - Write and
+                  post articles (for registered users only).
                   <Stack direction="horizontal" className="hstack" gap={2}>
                     <Button variant="outline-primary">
-                      <a href="https://riseblog.onrender.com"> Live Demo</a>
+                      <a href="https://riseblog.onrender.com"> Preview Site</a>
                     </Button>
                     <Button variant="outline-primary">
                       <a href="https://github.com/Fransco35/mern-blog-app">
-                        Github
+                        View Code
                       </a>
                     </Button>
                   </Stack>
@@ -62,7 +102,7 @@ function Portfolio() {
           </Col>
 
           <Col>
-            <Card style={{ width: "18rem" }} className="portfolioCard">
+            <Card className="portfolioCard">
               <Card.Img variant="top" src="medpal.png" />
               <Card.Body>
                 <Card.Title className="portfolioTitle">MedPal</Card.Title>
@@ -74,7 +114,7 @@ function Portfolio() {
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
-                    <a href="https://github.com/Klusterton-90">Github</a>
+                    <a href="https://github.com/Klusterton-90">View Code</a>
                   </Button>
                 </Stack>
               </Card.Body>
@@ -82,7 +122,7 @@ function Portfolio() {
           </Col>
 
           <Col>
-            <Card style={{ width: "18rem" }} className="portfolioCard">
+            <Card className="portfolioCard">
               <Card.Img variant="top" src="tasktrackerapp.png" />
               <Card.Body>
                 <Card.Title className="portfolioTitle">
@@ -90,19 +130,20 @@ function Portfolio() {
                 </Card.Title>
                 <Card.Text>
                   This is a frontend task tracker application built with
-                  React.js. It enables users create, update and delete tasks. It
-                  also has a reminder and completion state to track created
-                  tasks
+                  React.js. Users are able to : <br /> - Create tasks, <br /> -
+                  Read tasks, <br /> - Edit and Update tasks, <br /> - Delete
+                  tasks, <br /> - Toggle completion mode on or off <br /> -
+                  Toggle reminder on or off
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
                   <Button variant="outline-primary">
                     <a href="https://task-tracker-app-phi.vercel.app/">
-                      Live Demo
+                      Preview Site
                     </a>
                   </Button>
                   <Button variant="outline-primary">
                     <a href="https://github.com/Fransco35/TaskTrackerApp">
-                      Github
+                      View Code
                     </a>
                   </Button>
                 </Stack>

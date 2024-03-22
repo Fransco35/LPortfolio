@@ -43,13 +43,12 @@ function About() {
               </RevealTwo>
               <RevealTwo>
                 <p>
-                  Francis is a Fullstack Developer who is skilled in working on
-                  both client and server side interfaces and enjoys building
-                  well optimized and scalable web applications. His major tech
-                  stack includes Reactjs for frontend and Nodejs for backend
-                  development.
-                  <br />
-                  He enjoys learning new technologies and loves working with
+                  I'm an experienced engineer who works mostly on the frontend.
+                  I love building responsive and well optimized applications
+                  which are compactible with different browser types. I'm also
+                  skilled in backend technologies and worked on building the
+                  server-side of various applications.
+                  <br />I enjoy learning new technologies and love working with
                   communicative and collaborative development teams to produce
                   high quality results.
                 </p>

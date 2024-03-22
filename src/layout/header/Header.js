@@ -69,14 +69,14 @@ function Header() {
               </Reveal>
               <Reveal>
                 <h1>
-                  <span className="headerSpanOne">Full Stack</span>
-                  <span className="headerSpanTwo">Developer</span>
+                  <span className="headerSpanOne">Frontend/Fullstack</span>
+                  <span className="headerSpanTwo">Engineer</span>
                 </h1>
               </Reveal>
               <Reveal>
                 <p>
-                  Hi, I'm Francis Inegbenose, a passionate Fullstack Developer
-                  based in Nigeria. Welcome to my profile
+                  Hi, I'm Francis Inegbenose, a passionate Frontend/Fullstack
+                  Engineer based in Nigeria. Welcome to my profile
                 </p>
               </Reveal>
               <Reveal>
