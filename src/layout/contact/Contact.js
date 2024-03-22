@@ -3,7 +3,7 @@ import { EnvelopeAtFill, Whatsapp, Linkedin } from "react-bootstrap-icons";
 import ToggleContext from "../../context/toggle-context";
 import { useContext } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import "./contact.css";
+import "./Contact.css";
 
 function Contact() {
   const ctx = useContext(ToggleContext);
