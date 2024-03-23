@@ -31,7 +31,7 @@ function Footer() {
         </a>
       </div>
       <div className="footerCopyright">
-        <small> &copy; Francis Inegbenose 2023. </small>
+        <small> &copy; Francis Inegbenose 2024. </small>
       </div>
     </footer>
   );
