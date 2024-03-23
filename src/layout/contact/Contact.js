@@ -1,8 +1,9 @@
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { EnvelopeAtFill, Whatsapp, Linkedin } from "react-bootstrap-icons";
+import { Container, Row, Col, Form } from "react-bootstrap";
+import { EnvelopeAtFill, Linkedin } from "react-bootstrap-icons";
 import ToggleContext from "../../context/toggle-context";
 import { useContext } from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import Btn from "../../components/Button";
 import "./Contact.css";
 
 function Contact() {
@@ -28,11 +29,6 @@ function Contact() {
                 <EnvelopeAtFill className="contactInfoIcon" size={40} />
                 <h5>Email</h5>
                 <h6>kizzycole10@gmail.com</h6>
-              </div>
-              <div className={contactInfoClass}>
-                <Whatsapp className="contactInfoIcon" size={40} />
-                <h5>Whatsapp</h5>
-                <h6>+2348153871991</h6>
               </div>
               <div className={contactInfoClass}>
                 <Linkedin className="contactInfoIcon" size={40} />
@@ -64,11 +60,6 @@ function Contact() {
               <EnvelopeAtFill className="contactInfoIcon" size={40} />
               <h5>Email</h5>
               <h6>francisinose@yahoo.com</h6>
-            </div>
-            <div className={contactInfoClass}>
-              <Whatsapp className="contactInfoIcon" size={40} />
-              <h5>Whatsapp</h5>
-              <h6>+2348153871991</h6>
             </div>
             <div className={contactInfoClass}>
               <Linkedin className="contactInfoIcon" size={40} />
@@ -130,13 +121,9 @@ function Contact() {
                   errors={state.errors}
                 />
               </Form.Group>
-              <Button
-                variant="primary"
-                type="submit"
-                disabled={state.submitting}
-              >
+              <Btn variant="primary" type="submit" disabled={state.submitting}>
                 Submit
-              </Button>
+              </Btn>
             </Form>
           </Col>
         </Row>

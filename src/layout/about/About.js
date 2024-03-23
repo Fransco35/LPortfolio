@@ -1,4 +1,5 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import Btn from "../../components/Button";
 import "./About.css";
 import ToggleContext from "../../context/toggle-context";
 import { useContext } from "react";
@@ -54,9 +55,9 @@ function About() {
                 </p>
               </RevealTwo>
               <RevealTwo>
-                <Button variant="outline-primary" size="lg" href="#contact">
+                <Btn variant="outline-primary" size="lg" href="#contact">
                   Let's talk
-                </Button>
+                </Btn>
               </RevealTwo>
             </div>
           </Col>

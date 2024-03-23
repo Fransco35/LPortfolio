@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Button, Stack } from "react-bootstrap";
+import { Container, Row, Col, Card, Stack } from "react-bootstrap";
+import Btn from "../../components/Button";
 
 import "./Portfolio.css";
 
@@ -27,16 +28,16 @@ function Portfolio() {
                   framer-motion
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">
+                  <Btn variant="outline-primary">
                     <a href="https://francisinegbenose.vercel.app">
                       Preview Site
                     </a>
-                  </Button>
-                  <Button variant="outline-primary">
+                  </Btn>
+                  <Btn variant="outline-primary">
                     <a href="https://github.com/Fransco35/LPortfolio">
                       View Code
                     </a>
-                  </Button>
+                  </Btn>
                 </Stack>
               </Card.Body>
             </Card>
@@ -61,16 +62,16 @@ function Portfolio() {
                   between light and dark mode
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">
+                  <Btn variant="outline-primary">
                     <a href="https://rest-countries-reactjs.vercel.app/">
                       Preview Site
                     </a>
-                  </Button>
-                  <Button variant="outline-primary">
+                  </Btn>
+                  <Btn variant="outline-primary">
                     <a href="https://github.com/Fransco35/rest-countries-react-app">
                       View Code
                     </a>
-                  </Button>
+                  </Btn>
                 </Stack>
               </Card.Body>
             </Card>
@@ -90,14 +91,14 @@ function Portfolio() {
                   - Sign up and log in to post blog articles. <br /> - Write and
                   post articles (for registered users only).
                   <Stack direction="horizontal" className="hstack" gap={2}>
-                    <Button variant="outline-primary">
+                    <Btn variant="outline-primary">
                       <a href="https://riseblog.onrender.com"> Preview Site</a>
-                    </Button>
-                    <Button variant="outline-primary">
+                    </Btn>
+                    <Btn variant="outline-primary">
                       <a href="https://github.com/Fransco35/mern-blog-app">
                         View Code
                       </a>
-                    </Button>
+                    </Btn>
                   </Stack>
                 </Card.Text>
               </Card.Body>
@@ -116,9 +117,9 @@ function Portfolio() {
                   dosage.
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">
+                  <Btn variant="outline-primary">
                     <a href="https://github.com/Klusterton-90">View Code</a>
-                  </Button>
+                  </Btn>
                 </Stack>
               </Card.Body>
             </Card>
@@ -139,16 +140,16 @@ function Portfolio() {
                   completion mode on or off <br /> - Toggle reminder on or off
                 </Card.Text>
                 <Stack direction="horizontal" className="hstack" gap={2}>
-                  <Button variant="outline-primary">
+                  <Btn variant="outline-primary">
                     <a href="https://task-tracker-app-phi.vercel.app/">
                       Preview Site
                     </a>
-                  </Button>
-                  <Button variant="outline-primary">
+                  </Btn>
+                  <Btn variant="outline-primary">
                     <a href="https://github.com/Fransco35/TaskTrackerApp">
                       View Code
                     </a>
-                  </Button>
+                  </Btn>
                 </Stack>
               </Card.Body>
             </Card>

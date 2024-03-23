@@ -1,4 +1,5 @@
-import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import Btn from "../../components/Button";
 import { MoonFill, SunFill } from "react-bootstrap-icons";
 import "./Header.css";
 import ToggleContext from "../../context/toggle-context";
@@ -80,9 +81,9 @@ function Header() {
                 </p>
               </Reveal>
               <Reveal>
-                <Button variant="outline-primary" size="lg" href="#contact">
+                <Btn variant="outline-primary" size="lg" href="#contact">
                   Contact Me
-                </Button>
+                </Btn>
               </Reveal>
             </div>
           </Col>
